@@ -41,9 +41,7 @@ exports.template = function(grunt, init, done) {
     props.devDependencies = {
         'grunt-contrib-jshint': '~0.6.0',
         'grunt-contrib-qunit': '~0.2.0',
-        'grunt-contrib-less': '~0.7.0',
         'grunt-contrib-watch': '~0.4.0',
-        'grunt-contrib-clean': '~0.4.0',
     }
     // Files to copy (and process).
     var files = init.filesToCopy(props);
